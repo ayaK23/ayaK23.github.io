@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body{
+    font-size: 20px;
+    font-family: "UD デジタル 教科書体 NK-R";
+}
+
+h1{
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+h2{
+    font-size: 22px;
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 40px;
+    background-color: pink;
+    text-align: center;
+}
+
+p{
+    font-family: "UD デジタル 教科書体 NK-R";
+    text-align: center;
+}
+
+table{
+    border: 8px solid gold;
+    margin: 10px auto;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px 20px
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px 20px
+}
+
+ul li {
+    padding: 3px;
+    list-style-type: decimal;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+.question{
+    text-align: left;
+    text-align: center;
+}
+
+main {
+    margin: 0 10px;
+    flex: 2;
+    order: 2;
+    text-align: center;
+}
+
+aside {
+    margin: 0 10px;
+    order: 1;
+
+    background: #fffde8;
+    box-shadow: 0px 0px 0px 10px #fffde8;
+    border: dashed 2px #ffb03f;
+    border-radius: 9px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+}
