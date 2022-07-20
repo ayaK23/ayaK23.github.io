@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body{
+    font-size: 20px;
+    font-family: "UD デジタル 教科書体 NK-R";
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: pink;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+}
+
+main {
+    margin: 0 10px;
+    flex: 2;
+    order: 2;
+    text-align: center;
+}
+
+p{
+    font-family: "UD デジタル 教科書体 NK-R";
+    text-align: center;
+}
+
+table{
+    border: 8px solid gold;
+    margin: 10px auto;
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px 20px
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px 20px
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+}
